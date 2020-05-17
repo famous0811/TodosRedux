@@ -14,7 +14,7 @@ const Listcontent =styled.div`
 
 function List({onclick,test,completed,text,month, day}) {
     return (
-            <Listcontent className="todos_list">
+            <Listcontent>
                 <Contents onClick={onclick} completed={completed}>
                 {text}
                 </Contents>
