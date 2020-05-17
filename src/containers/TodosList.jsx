@@ -42,7 +42,6 @@ function TodosList({todos,nowfilter,clearTodo,Alldelete,deleteTodo,setVisibility
     );
 }
 const mapStateToProps=(state)=>{
-    // console.log(state);
     return{
         nowfilter:state.Filterruder, 
         todos:SetViewTodoset(state),

@@ -6,7 +6,6 @@ import {SetDays} from '../store/reducer/dayreducer';
 function Calendar({SetDays}) {
 
     function Updays(time){
-        // console.log(SetDays);
         SetDays(time.getMonth()+1,time.getDate());
     }
     return (
