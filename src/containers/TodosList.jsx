@@ -28,7 +28,7 @@ const SetViewTodoset=createSelector(
 )
 
 function TodosList({todos,nowfilter,clearTodo,Alldelete,deleteTodo,setVisibilityFilter}) {
-    if(nowfilter===filter.ALL_CLAER || nowfilter===filter.DOWNLOAD)
+    if(nowfilter===filter.ALL_CLAER)
     {   
         Alldelete([]);
         setVisibilityFilter(filter.SHOW_ALL);
